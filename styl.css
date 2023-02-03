@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+
+}
+
+body {
+    font: 14px "Poppins";
+    color: #414042;
+    background: url('obrazky/pozadi.png') #F9F9F9;
+
+}
+
+
+h2 {
+    font-size: 1.7em;
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+
+article header {
+    height: 80px;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    color: #00386B;
+}
+
+img {
+    width: 300px;
+}
+
+article h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article section p {
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #EF6534;
+}
